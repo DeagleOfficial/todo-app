@@ -1,0 +1,37 @@
+.AddTask {
+    display: flex;
+    margin: 20px;
+}
+
+.AddTask > input {
+    background-color: #2F2F2F;
+    color: #FFFFFF;
+    border: none;
+    max-width: 600px;
+    margin: 10px;
+}
+
+.AddTask > input:active {
+    background-color: #2F2F2F;
+}
+
+.AddTask > input::after {
+    background-color: #2F2F2F;
+}
+
+.AddTask > input:focus {
+    background-color: #2F2F2F;
+    color: #FFFFFF;
+}
+
+.AddTask > button {
+    background-color: #C620A7;
+    color: #FFFFFF;
+    margin: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.AddTask > p {
+    margin: 20px;
+}

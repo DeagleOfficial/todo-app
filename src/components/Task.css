@@ -1,0 +1,81 @@
+.task {
+    background-color: #2F2F2F;
+    margin: 5px;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: left;
+    padding: 20px;
+    filter: drop-shadow(0 0 16 80%)
+}
+
+.task-controls {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.task-controls > * {
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+    margin-top: auto;
+    margin-bottom: auto;
+
+}
+
+.task-controls > button {
+    background-color: #C620A7;
+    color: #FFFFFF;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 60%;
+}
+
+.task-controls > p {
+    align-self: flex-end;
+    width: 40%;
+    color: #AFAFAF;
+}
+
+.task-controls > p:hover {
+    cursor: pointer;
+}
+
+.task-wrapper {
+    padding: 20px;
+}
+
+.task-completed {
+    background-color: #202020;
+    border: 1px solid #7AB520;
+    filter: none;
+}
+
+.task-controls-completed > button {
+    background-color: #202020;
+    color: #AFAFAF;
+}
+
+.task-controls-completed > button:hover {
+    color: #AFAFAF;
+}
+
+.task-completed-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tick {
+    display: none;
+}
+
+.tick-completed {
+    display: flex;
+    justify-content: center;
+    background-color: #7AB520;
+    padding: 4px;
+    border-radius: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: -38px;
+}
